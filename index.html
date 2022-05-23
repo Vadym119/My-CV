@@ -4,53 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>My CV</title>
 </head>
 
 <body>
     <!--main container-->
-    <div>
+    <div class="main_container">
         <!--main section-->
-        <div>
+        <div clall="main_section">
             <!--about me section-->
-            <div>
+            <div class="about_me">
                 <h2>QA Engineer</h2>
                 <h1>Vadym Haidachov</h1>
                 <p>about me</p>
             </div>
+            <!--work experience section-->
+            <div class="work_experience">
+                <h2>Work Experience</h2>
+                <!--first work-->
+                <div class="first_work">
+                    <h3>Engineeer Electro Mechanic in Poltava Drilling Company</h3>
+                    <p>September 2006 - June 2011 | Ukraine</p>
+                    <ul>
+                        <li>1111</li>
+                        <li>2222</li>
+                        <li>3333</li>
+                    </ul>
+                </div>
+                <!--second work-->
+                <div clall="second_work">
+                    <h3>ELectrician in Cracow</h3>
+                    <p>September 2006 - June 2011 | Poland</p>
+                </div>
+                <!--third work-->
+                <div class="third_work">
+                    <h3>ELectrician in Cracow</h3>
+                    <p>September 2006 - June 2011 | Poland</p>
+                </div>
+            </div>
+            <!--education section-->
+            <div class="education">
+                <h2>Education</h2>
+                <h3>Poltava National Technical University</h3>
+                <h4>Electro mechanical faculty</h4>
+                <p>September 2006 - June 2011 | Ukraine</p>
+            </div>   
         </div>
-
+        
         <!--sidebar section-->
-        <aside>
-            <img src="Pictures/MyPhoto.jpg" alt="My photo">
-            <!--contakts section-->
-            <div>
-                <h3>Contacts</h3>
+        <aside class="sidebar">
+            <img src="Pictures/MyPhoto.jpg" alt="My photo" class="photo">
+            <!--contacts section-->
+            <div class="contacts">
+                <h3 class="side_title">Contacts</h3>
                 <div>
-                    <span>C:</span>
-                    <a href="tel:+48690293901">+48690293901</a>
+                    <span class="letter_type">C:</span>
+                    <a href="tel:+48690293901" class="contact_link">+48690293901</a>
                 </div>
                 <div>
-                    <span>E:</span>
-                    <a href="mailto:gaidachov@gmail.com">gaidachov@gmail.com</a>
+                    <span class="letter_type">E:</span>
+                    <a href="mailto:gaidachov@gmail.com" class="contact_link">gaidachov@gmail.com</a>
                 </div>
             </div>
             <!--tech skills-->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>111111</li>
-                    <li>222222</li>
-                    <li>333333</li>
+            <div class="tech_skills">
+                <h3 class="side_title">Tech Skills</h3>
+                <ul class="side_list">
+                    <li class="dots"><span class="side_list">111111</span></li>
+                    <li class="dots"><span class="side_list">222222</span></li>
+                    <li class="dots"><span class="side_list">333333</span></li>
                 </ul>
             </div>
             <!--soft skills-->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>11111</li>
-                    <li>22222</li>
-                    <li>33333</li>
+            <div class="soft_skills">
+                <h3 class="side_title">Soft Skills</h3>
+                <ul class="side_list">
+                    <li class="dots"><span class="side_list">11111</span></li>
+                    <li class="dots"><span class="side_list">22222</span></li>
+                    <li class="dots"><span class="side_list">33333</span></li>
+                </ul>
+            </div>
+            <!--languages-->
+            <div class="languages">
+                <h3 class="side_title">Languages</h3>
+                <ul class="side_list">
+                    <li class="dots"><span class="side_list">Ukrainian</span>  <span>native</span></li>
+                    <li class="dots"><span class="side_list">Russian</span>   <span>native</span></li>
+                    <li class="dots"><span class="side_list">English</span>   <span>B2</span></li>
+                    <li class="dots"><span class="side_list">Polish</span>   <span>B2</span></li>
                 </ul>
             </div>
         </aside>
