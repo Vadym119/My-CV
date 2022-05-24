@@ -6,16 +6,16 @@ body {
 .main_container {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1000px;
     background-color: white;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.1);
     padding: 0 auto;
-    margin: 20px 35px;
+    margin: 10px 20px;
 }
 
 .main_section {
     padding: 40px 85px;
-    width: 580px;
+    width: 400px;
 }
 .position {
     font-style: normal;
