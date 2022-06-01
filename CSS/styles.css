@@ -6,15 +6,15 @@ body {
 .main_container {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 100%;
     background-color: white;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.1);
     padding: 0 auto;
 }
 
 .main_section {
-    padding: 40px 85px;
-    width: 580px;
+    padding: 3.3% 7%;
+    width: 48%;
 }
 .position {
     font-style: normal;
@@ -85,11 +85,11 @@ body {
 .sidebar {
     background-color: rgb(21, 35, 35);
     padding-top: 30px;
-    width: 400px;
+    width: 33%;
 }
 
 .photo {
-    width: 400px;
+    width: 100%;
     margin-bottom: 30px;
 }
 
