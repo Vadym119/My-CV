@@ -10,6 +10,7 @@ body {
     background-color: white;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.1);
     padding: 0 auto;
+    margin: 10px auto;
 }
 
 .main_section {
