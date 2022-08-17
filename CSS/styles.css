@@ -10,8 +10,8 @@ body {
     background-color: white;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.1);
     padding: 20px auto;
-    margin: 10px auto;
-}
+    margin: 20px auto;
+    }
 
 .main_section {
     padding: 40px 60px;
@@ -22,7 +22,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 .name {
     font-style: normal;
